@@ -62,6 +62,17 @@ app.post("/redis", async (req, res) => {
   }
 });
 
+app.delete("/redis/:key", async (req, res) => {
+  try {
+    const { key } = req.params;
+    await redis.del(key);
+    res.send("Data deleted successfully");
+  } catch (error) {
+    console.error(error);
+    res.send(error);
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
