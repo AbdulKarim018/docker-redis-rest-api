@@ -1,3 +1,28 @@
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+</p>
+<p align="center">
+    <h1 align="center">DOCKER-REDIS-REST-API</h1>
+</p>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/AbdulKarim018/docker-redis-rest-api?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/AbdulKarim018/docker-redis-rest-api?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/AbdulKarim018/docker-redis-rest-api?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/AbdulKarim018/docker-redis-rest-api?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/YAML-CB171E.svg?style=flat&logo=YAML&logoColor=white" alt="YAML">
+	<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
+	<img src="https://img.shields.io/badge/Docker-2496ED.svg?style=flat&logo=Docker&logoColor=white" alt="Docker">
+	<img src="https://img.shields.io/badge/Express-000000.svg?style=flat&logo=Express&logoColor=white" alt="Express">
+	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+</p>
+<hr>
+
 # Express CRUD API with Redis using Docker Compose
 
 This project demonstrates a simple CRUD (Create, Read, Update, Delete) API built with Express.js, connected to a Redis database. Both the Express server and Redis are containerized using Docker Compose, making it easy to spin up the entire environment with a single command.
