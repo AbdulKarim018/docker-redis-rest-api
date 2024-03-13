@@ -3,19 +3,15 @@ version: "3"
 services:
   redis:
     image: redis
-    container_name: redis
-    networks:
-      - redis-rest
-  node:
-    image: abdulkarim018/redis-rest-api
-    container_name: node
-    depends_on:
-      - redis
-    networks:
-      - redis-rest
+
+  api:
+    build: .
     ports:
       - "3000:3000"
-
-networks:
-  redis-rest:
-    driver: bridge
+    environment:
+      PORT: 3000
+    depends_on:
+      - redis
+    volumes:
+      - .:/app
+    # command: npm run dev
