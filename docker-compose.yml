@@ -15,3 +15,4 @@ services:
     volumes:
       - .:/app
     # command: npm run dev
+    command: npm start
